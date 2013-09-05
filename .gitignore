@@ -4,7 +4,7 @@
 /.rvmrc
 /config/additional_environment.rb
 /config/configuration.yml
-/config/database.yml
+config/database.yml
 /config/email.yml
 /config/initializers/session_store.rb
 /config/initializers/secret_token.rb
@@ -15,7 +15,7 @@
 /files/*
 /lib/redmine/scm/adapters/mercurial/redminehelper.pyc
 /lib/redmine/scm/adapters/mercurial/redminehelper.pyo
-/log/*.log*
+log/*.log*
 /log/mongrel_debug
 /plugins/*
 !/plugins/README
@@ -25,7 +25,7 @@
 !/public/themes/alternate
 !/public/themes/classic
 !/public/themes/README
-/tmp/*
+tmp/*
 /tmp/cache/*
 /tmp/pdf/*
 /tmp/sessions/*
@@ -39,4 +39,5 @@
 /.bundle
 /Gemfile.lock
 /Gemfile.local
+.idea/*
 
